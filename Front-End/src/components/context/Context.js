@@ -7,7 +7,7 @@ const StoreContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
   const [token, setToken] = useState("");
   const [luxry_list, setLuxryList] = useState([]);
-  const url = "http://localhost:4000";
+  const url = "https://jo-furniture-backends.onrender.com";
 
   const addToCart = async (itemId) => {
     setCartItems((prev) => {
