@@ -14,4 +14,4 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'https://jo-furniture-backends.onrender.com'
+export const url = "https://backend-27i9.onrender.com"
